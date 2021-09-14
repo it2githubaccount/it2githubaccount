@@ -1,4 +1,4 @@
 /system script
-add dont-require-permissions=no name=x-iam-self-protected owner=admin policy=read,write,policy,test source=":beep frequency=660 length=100ms;:delay 150ms;:beep frequency=660 length=100ms;:delay 300ms;:beep frequency=660 length=100ms;:delay 300ms;\
+add dont-require-permissions=no name=iam-self-protected owner=admin policy=read,write,policy,test source=":beep frequency=660 length=100ms;:delay 150ms;:beep frequency=660 length=100ms;:delay 300ms;:beep frequency=660 length=100ms;:delay 300ms;\
     :beep frequency=510 length=100ms;:delay 100ms;:beep frequency=660 length=100ms;:delay 300ms;:beep frequency=770 length=100ms;:delay 550ms;:beep frequency=380 length=100ms;:delay 575ms;/system backup load name=\"flash/dont-shoot-urself-in-the-\
     foot.backup\" password=\"\""
